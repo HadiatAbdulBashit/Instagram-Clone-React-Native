@@ -8,10 +8,8 @@
 :root ._fs-0{flex-shrink:0;}
 :root ._fd-row{flex-direction:row;}
 :root ._pt-10px{padding-top:10px;}
-:root ._pr-10px{padding-right:10px;}
 :root ._pb-10px{padding-bottom:10px;}
-:root ._pl-10px{padding-left:10px;}
-:root ._bg-fff35{background-color:#fff;}
 :root ._fd-column{flex-direction:column;}
 :root ._ai-center{align-items:center;}
 :root ._mr-10px{margin-right:10px;}
+:root ._ml-10px{margin-left:10px;}

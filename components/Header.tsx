@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <XStack
-      padding={10}
+      padding={20}
       backgroundColor="#fff"
       flex={1}
       alignItems="center"
@@ -23,14 +23,14 @@ const Header = () => {
       width={"100%"}
     >
       <XStack flex={1} gap={5} alignItems="center">
-        <Text style={{ fontSize: 24, fontFamily: "StyleScript" }}>
+        <Text style={{ fontSize: 28, fontFamily: "StyleScript" }}>
           Instagram
         </Text>
         <Ionicons name="chevron-down" size={12} color="black" />
       </XStack>
       <XStack flex={1} gap={10} justifyContent="flex-end" alignItems="center">
-        <Ionicons name="heart-outline" size={24} color="black" />
-        <Ionicons name="chatbubble-outline" size={20} color="black" />
+        <Ionicons name="heart-outline" size={28} color="black" />
+        <Ionicons name="chatbubble-outline" size={26} color="black" />
       </XStack>
     </XStack>
   );

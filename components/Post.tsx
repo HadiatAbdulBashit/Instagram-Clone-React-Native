@@ -78,15 +78,20 @@ const Post: React.FC<PostProps> = ({ content }) => {
             )}
           </YStack>
         </XStack>
-        <XStack alignItems="center">
+        <XStack alignItems="center" gap={10}>
           {content.hasActiveStory ? (
-            <Text>{moment(content.feed.postDate).fromNow()}</Text>
+            <Text style={{ fontSize: 12 }}>
+              {moment(content.feed.postDate).fromNow()}
+            </Text>
           ) : (
             <Button size="$2" theme="active">
               Follow
             </Button>
           )}
-          <Button size="$2" style={{ backgroundColor: "transparent" }}>
+          <Button
+            size="$2"
+            style={{ backgroundColor: "transparent", width: 5 }}
+          >
             <Ionicons name="ellipsis-vertical" size={15} color="black" />
           </Button>
         </XStack>

@@ -6,10 +6,10 @@
 :root ._miw-0px{min-width:0px;}
 :root ._fs-1{flex-shrink:1;}
 :root ._fd-row{flex-direction:row;}
-:root ._pt-10px{padding-top:10px;}
-:root ._pr-10px{padding-right:10px;}
-:root ._pb-10px{padding-bottom:10px;}
-:root ._pl-10px{padding-left:10px;}
+:root ._pt-20px{padding-top:20px;}
+:root ._pr-20px{padding-right:20px;}
+:root ._pb-20px{padding-bottom:20px;}
+:root ._pl-20px{padding-left:20px;}
 :root ._bg-fff35{background-color:#fff;}
 :root ._fg-1{flex-grow:1;}
 :root ._ai-center{align-items:center;}

@@ -16,9 +16,9 @@ interface StoryProps {
 
 const Story: React.FC<StoryProps> = ({ stories }) => {
   return (
-    <XStack padding={10} backgroundColor="#fff">
+    <XStack paddingVertical={10}>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-        <YStack alignItems="center" marginRight={10}>
+        <YStack alignItems="center" marginHorizontal={10}>
           <LinearGradient
             colors={["#fff", "#fff"]}
             style={{

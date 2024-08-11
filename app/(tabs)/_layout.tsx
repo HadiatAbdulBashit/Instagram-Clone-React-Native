@@ -22,11 +22,7 @@ export default function TabLayout() {
         name="index"
         options={{
           tabBarIcon: ({ color, focused }) => (
-            <Ionicons
-              size={24}
-              name={focused ? "home" : "home-outline"}
-              color={color}
-            />
+            <Ionicons size={24} name={focused ? "home" : "home-outline"} />
           ),
         }}
       />
@@ -34,11 +30,7 @@ export default function TabLayout() {
         name="explore"
         options={{
           tabBarIcon: ({ color, focused }) => (
-            <Ionicons
-              size={24}
-              name={focused ? "search" : "search-outline"}
-              color={color}
-            />
+            <Ionicons size={24} name={focused ? "search" : "search-outline"} />
           ),
         }}
       />
@@ -49,7 +41,6 @@ export default function TabLayout() {
             <Ionicons
               size={24}
               name={focused ? "add-circle" : "add-circle-outline"}
-              color={color}
             />
           ),
         }}
@@ -61,7 +52,6 @@ export default function TabLayout() {
             <MaterialCommunityIcons
               name={focused ? "movie" : "movie-outline"}
               size={24}
-              color={color}
             />
           ),
         }}
@@ -73,7 +63,6 @@ export default function TabLayout() {
             <Ionicons
               name={focused ? "person-circle" : "person-circle-outline"}
               size={24}
-              color={color}
             />
           ),
         }}
