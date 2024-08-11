@@ -1,0 +1,17 @@
+:root ._dsp-flex{display:flex;}
+:root ._ai-stretch{align-items:stretch;}
+:root ._fb-auto{flex-basis:auto;}
+:root ._bxs-border-box{box-sizing:border-box;}
+:root ._pos-relative{position:relative;}
+:root ._mih-0px{min-height:0px;}
+:root ._miw-0px{min-width:0px;}
+:root ._fs-0{flex-shrink:0;}
+:root ._fd-row{flex-direction:row;}
+:root ._pt-10px{padding-top:10px;}
+:root ._pr-10px{padding-right:10px;}
+:root ._pb-10px{padding-bottom:10px;}
+:root ._pl-10px{padding-left:10px;}
+:root ._bg-fff35{background-color:#fff;}
+:root ._fd-column{flex-direction:column;}
+:root ._ai-center{align-items:center;}
+:root ._mr-10px{margin-right:10px;}
