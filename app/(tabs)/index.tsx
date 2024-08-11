@@ -8,17 +8,16 @@ import Info from "@/components/Info";
 import Suggest from "@/components/Suggest";
 
 export default function HomeScreen() {
-  console.log(Feeds);
-
   return (
-    <YStack>
+    <YStack flex={1} backgroundColor={"#fff"}>
       <Header />
-      <ScrollView>
+      <ScrollView flex={1}>
         <Story stories={StoryData} />
         <Info />
         <Suggest />
-        <Post />
-        <Post />
+        {Feeds.map((feed, index) => (
+          <Post content={feed} key={index} />
+        ))}
       </ScrollView>
     </YStack>
   );
