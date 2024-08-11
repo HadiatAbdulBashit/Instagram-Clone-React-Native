@@ -1,0 +1,17 @@
+:root ._dsp-flex{display:flex;}
+:root ._fb-auto{flex-basis:auto;}
+:root ._bxs-border-box{box-sizing:border-box;}
+:root ._pos-relative{position:relative;}
+:root ._mih-0px{min-height:0px;}
+:root ._miw-0px{min-width:0px;}
+:root ._fs-1{flex-shrink:1;}
+:root ._fd-row{flex-direction:row;}
+:root ._pr-10px{padding-right:10px;}
+:root ._pl-10px{padding-left:10px;}
+:root ._bg-fff35{background-color:#fff;}
+:root ._fg-1{flex-grow:1;}
+:root ._gap-5px{gap:5px;}
+:root ._w-10037{width:100%;}
+:root ._ai-center{align-items:center;}
+:root ._jc-441309761{justify-content:space-between;}
+:root ._pb-20px{padding-bottom:20px;}
